@@ -1,0 +1,22 @@
+{
+  "name": "trabalho-de-ppi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prep": "npm install",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build": "npm run prep && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}

@@ -1,0 +1,41 @@
+form div p {
+  color: red;
+}
+
+header {
+  display: flex;
+}
+
+header > h1 {
+  margin-right: 50px;
+}
+
+nav {
+  display: flex;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#users-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+#users-table th,
+#users-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
